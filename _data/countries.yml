@@ -1,0 +1,64 @@
+- slug: es
+  name: Espanya
+  note: "Marc estatal amb informe del Defensor del Pueblo i debat parlamentari sobre reconeixement i reparació."
+  portals:
+    - label: Defensor del Pueblo
+      url: https://www.defensordelpueblo.es/informe-iglesia/informe-los-abusos-sexuales-ambito-la-iglesia-catolica-papel-los-poderes-publicos/
+    - label: Congreso - iniciativa de subcomisión (17/12/2024)
+      url: https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-258.PDF
+- slug: fr
+  name: França
+  note: "El corpus francès pivota sobre la CIASE i sobre seguiments parlamentaris recents en entorns escolars catòlics."
+  portals:
+    - label: CIASE
+      url: https://www.ciase.fr/rapport-final/
+    - label: Assemblée nationale - dossier Bétharram
+      url: https://www.assemblee-nationale.fr/dyn/17/dossiers_/DLR5L17N51538
+- slug: de
+  name: Alemanya
+  note: "El referent principal és l'estudi MHG, amb base arxivística diocesana i focus en infraregistre."
+  portals:
+    - label: DBK - MHG-Studie
+      url: https://www.dbk.de/themen/sexualisierte-gewalt-und-praevention/forschung-und-aufarbeitung/studien/mhg-studie
+- slug: ie
+  name: Irlanda
+  note: "Irlanda acumula un dels conjunts més importants d'informes públics i manté una comissió d'investigació oberta des de juliol de 2025."
+  portals:
+    - label: Ryan Report
+      url: https://www.gov.ie/en/department-of-children-disability-and-equality/publications/the-report-of-the-commission-to-inquire-into-child-abuse-the-ryan-report/
+    - label: Dublin Archdiocese Report
+      url: https://www.gov.ie/en/department-of-justice-home-affairs-and-migration/publications/report-by-commission-of-investigation-into-catholic-archdiocese-of-dublin/
+    - label: Cloyne Report
+      url: https://www.gov.ie/en/department-of-justice-home-affairs-and-migration/publications/report-by-commission-of-investigation-into-catholic-diocese-of-cloyne/
+    - label: Commission of Investigation in schools (2025)
+      url: https://www.gov.ie/en/department-of-education/press-releases/minister-mcentee-announces-establishment-of-commission-of-investigation-into-historical-sexual-abuse-in-schools-and-appointment-of-chair/
+- slug: gb
+  name: Regne Unit
+  note: "La IICSA aporta un marc robust de governança, salvaguarda, notificació i responsabilitat organitzativa."
+  portals:
+    - label: IICSA - Roman Catholic Church Investigation Report
+      url: https://www.iicsa.org.uk/document/roman-catholic-church-investigation-report-november-2020
+- slug: nl
+  name: Països Baixos
+  note: "El portal eclesial neerlandès conserva el conjunt Deetman, informes anuals i recursos de denúncia."
+  portals:
+    - label: RKK - Uitgelicht Misbruik
+      url: https://www.rkkerk.nl/uitgelicht/uitgelicht-misbruik/
+    - label: R.K. Meldpunt Grensoverschrijdend Gedrag
+      url: https://www.meldpuntgrensoverschrijdendgedragrkk.nl/
+- slug: be
+  name: Bèlgica
+  note: "El sistema belga combina punt d'informació, informes anuals i recomanacions parlamentàries recents."
+  portals:
+    - label: Església a Bèlgica - abusos sexuals
+      url: https://www.cathobel.be/eglise-en-belgique/la-conference-des-eveques/abus-sexuels-dans-leglise/
+    - label: Dignity Belgium
+      url: https://dignitybelgium.be/
+- slug: pt
+  name: Portugal
+  note: "La comissió independent de 2023 i el Grup VITA constitueixen avui el nucli públic més rellevant."
+  portals:
+    - label: Agència Ecclesia - presentació del relat final
+      url: https://agencia.ecclesia.pt/portal/igreja-abusos-comissao-independente-validou-512-testemunhos-e-aponta-a-numero-minimo-de-4815-vitimas-em-70-anos/
+    - label: Grupo VITA
+      url: https://grupovita.pt/o-grupo-vita-completa-dois-anos-de-funcionamento/

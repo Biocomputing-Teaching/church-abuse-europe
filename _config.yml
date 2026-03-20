@@ -1,0 +1,42 @@
+title: "Church Abuse Europe"
+description: "Corpus europeu sobre abusos sexuals a menors en l'Església catòlica: informes, jurisprudència, seguiment institucional i fonts públiques."
+url: "https://biocomputing-teaching.github.io"
+baseurl: "/church-abuse-europe"
+markdown: kramdown
+permalink: pretty
+collections:
+  reports:
+    output: true
+    permalink: /informes/:name/
+  jurisprudence:
+    output: true
+    permalink: /jurisprudencia/:name/
+  tracks:
+    output: true
+    permalink: /seguiment/:name/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: reports
+    values:
+      layout: resource
+      section_label: Informe
+  - scope:
+      path: ""
+      type: jurisprudence
+    values:
+      layout: resource
+      section_label: Jurisprudència
+  - scope:
+      path: ""
+      type: tracks
+    values:
+      layout: resource
+      section_label: Seguiment
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

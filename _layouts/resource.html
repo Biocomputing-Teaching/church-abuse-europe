@@ -1,0 +1,110 @@
+---
+layout: default
+---
+<article class="resource-page">
+  <header class="resource-hero">
+    <p class="eyebrow">{{ page.section_label }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="lead">{{ page.summary }}</p>
+    <div class="meta-grid">
+      {% if page.country %}
+        <div class="meta-box">
+          <span class="meta-label">País</span>
+          <strong>{{ page.country }}</strong>
+        </div>
+      {% endif %}
+      {% if page.institution %}
+        <div class="meta-box">
+          <span class="meta-label">Institució</span>
+          <strong>{{ page.institution }}</strong>
+        </div>
+      {% endif %}
+      {% if page.published %}
+        <div class="meta-box">
+          <span class="meta-label">Publicat</span>
+          <strong>{{ page.published }}</strong>
+        </div>
+      {% endif %}
+      {% if page.verified_on %}
+        <div class="meta-box">
+          <span class="meta-label">Verificat</span>
+          <strong>{{ page.verified_on }}</strong>
+        </div>
+      {% endif %}
+    </div>
+  </header>
+
+  {% if page.metrics %}
+    <section class="section">
+      <div class="cards-grid">
+        {% for metric in page.metrics %}
+          <article class="card stat-card">
+            <span class="stat-value">{{ metric.value }}</span>
+            <span class="stat-label">{{ metric.label }}</span>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  <section class="section prose-block">
+    {% if page.methodology %}
+      <h2>Metodologia i abast</h2>
+      <p>{{ page.methodology }}</p>
+    {% endif %}
+    {% if page.legal_relevance %}
+      <h2>Rellevància jurídica</h2>
+      <p>{{ page.legal_relevance }}</p>
+    {% endif %}
+    {{ content }}
+  </section>
+
+  {% if page.tags %}
+    <section class="section">
+      <div class="chip-row">
+        {% for tag in page.tags %}
+          <span class="chip static">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if page.source_links %}
+    <section class="section">
+      <div class="section-head">
+        <p class="eyebrow">Fonts</p>
+        <h2>Traça documental</h2>
+      </div>
+      <div class="sources-list">
+        {% for link in page.source_links %}
+          <article class="source-item">
+            <strong>{{ link.label }}</strong>
+            {% if link.note %}<span>{{ link.note }}</span>{% endif %}
+            <a class="card-link" href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.url }}</a>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if page.related_items %}
+    <section class="section">
+      <div class="section-head">
+        <p class="eyebrow">Enllaços interns</p>
+        <h2>Materials relacionats</h2>
+      </div>
+      <div class="cards-grid cards-grid-compact">
+        {% for item in page.related_items %}
+          <article class="card">
+            <div class="badge">{{ item.kind }}</div>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.note }}</p>
+            <div class="card-footer">
+              <a class="card-link" href="{{ item.url | relative_url }}">Obrir</a>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+</article>

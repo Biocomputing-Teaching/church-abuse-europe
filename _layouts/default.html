@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="brand-block">
+          <a class="brand-mark" href="{{ '/' | relative_url }}">Church Abuse Europe</a>
+          <p class="brand-note">Corpus europeu sobre abusos sexuals a menors en l'Església catòlica</p>
+        </div>
+        <nav class="top-nav" aria-label="Navegació principal">
+          {% for item in site.data.navigation %}
+            <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+      </header>
+
+      <main>
+        {{ content }}
+      </main>
+
+      <footer class="site-footer">
+        <p>Última revisió editorial del corpus: 20 de març de 2026.</p>
+        <p>Les línies obertes s'actualitzen només quan hi ha traça pública recent i verificable.</p>
+      </footer>
+    </div>
+    <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+  </body>
+</html>

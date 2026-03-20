@@ -1,0 +1,57 @@
+- group: Fonts europees principals
+  items:
+    - title: Defensor del Pueblo - Informe sobre abusos sexuals en l'àmbit de l'Església catòlica
+      url: https://www.defensordelpueblo.es/informe-iglesia/informe-los-abusos-sexuales-ambito-la-iglesia-catolica-papel-los-poderes-publicos/
+      note: "Portal oficial amb informe complet i annex digital."
+    - title: CIASE - Rapport final
+      url: https://www.ciase.fr/rapport-final/
+      note: "Comissió independent francesa."
+    - title: Deutsche Bischofskonferenz - MHG-Studie
+      url: https://www.dbk.de/themen/sexualisierte-gewalt-und-praevention/forschung-und-aufarbeitung/studien/mhg-studie
+      note: "Pàgina oficial de l'estudi MHG i els seus documents."
+    - title: IICSA - Roman Catholic Church Investigation Report
+      url: https://www.iicsa.org.uk/document/roman-catholic-church-investigation-report-november-2020
+      note: "Investigació pública independent al Regne Unit."
+    - title: Ryan Report
+      url: https://www.gov.ie/en/department-of-children-disability-and-equality/publications/the-report-of-the-commission-to-inquire-into-child-abuse-the-ryan-report/
+      note: "Informe oficial irlandès sobre abús infantil en institucions."
+    - title: Dublin Archdiocese Report
+      url: https://www.gov.ie/en/department-of-justice-home-affairs-and-migration/publications/report-by-commission-of-investigation-into-catholic-archdiocese-of-dublin/
+      note: "Comissió d'investigació oficial sobre l'arxidiòcesi de Dublín."
+- group: Seguiment institucional recent
+  items:
+    - title: Irlanda - Commission of Investigation into historical sexual abuse in schools
+      url: https://www.gov.ie/en/department-of-education/press-releases/minister-mcentee-announces-establishment-of-commission-of-investigation-into-historical-sexual-abuse-in-schools-and-appointment-of-chair/
+      note: "Press release oficial del 8 de juliol de 2025."
+    - title: Irlanda - Report of the Inter-Departmental Group (8 July 2025)
+      url: https://www.gov.ie/en/department-of-education/publications/report-of-the-inter-departmental-group-on-the-recommendations-of-the-scoping-inquiry-into-historical-sexual-abuse-in-day-and-boarding-schools-run-by-religious-orders/
+      note: "Resposta de govern posterior a la scoping inquiry."
+    - title: Espanya - BOCG sobre subcomissió de reparació (17/12/2024)
+      url: https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-258.PDF
+      note: "Traça parlamentària oficial."
+    - title: França - Dossier parlamentari sobre Notre-Dame de Bétharram
+      url: https://www.assemblee-nationale.fr/dyn/17/dossiers_/DLR5L17N51538
+      note: "Dossier oficial de l'Assemblée nationale."
+    - title: Portugal - Grup VITA compleix dos anys
+      url: https://grupovita.pt/o-grupo-vita-completa-dois-anos-de-funcionamento/
+      note: "Seguiment institucional portuguès, 22 de maig de 2025."
+    - title: Bèlgica - Operació Calice, decisió de 17/02/2025
+      url: https://www.cathobel.be/2025/02/operation-calice-les-eveques-de-belgique-reagissent-a-larret-du-chambre-du-conseil-de-bruxelles/
+      note: "Traça pública recent sobre el tancament sense persecució de línies institucionals."
+- group: Jurisprudència del TEDH
+  items:
+    - title: O'Keeffe v. Ireland [GC]
+      url: https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CASE+OF+O%27KEEFFE+v.+IRELAND.pdf&id=001-140235&library=ECHR
+      note: "Protecció institucional i remei efectiu."
+    - title: X and Y v. the Netherlands
+      url: https://hudoc.echr.coe.int/app/conversion/pdf/?filename=001-57603.pdf&id=001-57603&library=ECHR
+      note: "Protecció penal efectiva."
+    - title: C.A.S. and C.S. v. Romania
+      url: https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=C.A.S.+and+C.S.+v.+Romania.pdf&id=002-1818&library=ECHR
+      note: "Investigació efectiva."
+    - title: Y v. Slovenia
+      url: https://hudoc.echr.coe.int/app/conversion/pdf/?filename=001-154728.pdf&id=001-154728&library=ECHR
+      note: "Victimització secundària."
+    - title: M.L. v. Slovakia
+      url: https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CASE+OF+M.L.+v.+SLOVAKIA.pdf&id=001-212150&library=ECHR
+      note: "Verificació i equilibri entre expressió i vida privada."
