@@ -2,6 +2,11 @@
 
 Repositori Jekyll pensat per a GitHub Pages sobre abusos sexuals a menors en l'Església catòlica a Europa, amb enfoc institucional i jurídic.
 
+## Enllaços
+
+- Web pública prevista: `https://biocomputing-teaching.github.io/church-abuse-europe/`
+- Vista local amb Jekyll: `http://127.0.0.1:4000/church-abuse-europe/`
+
 ## Estructura
 
 - `_reports/`: informes, comissions i grans corpus documentals
@@ -9,6 +14,7 @@ Repositori Jekyll pensat per a GitHub Pages sobre abusos sexuals a menors en l'E
 - `_tracks/`: seguiments i línies obertes amb confirmació pública recent
 - `_data/`: navegació, portals per país i directori de fonts
 - `assets/`: estils i JavaScript lleuger
+- `.github/workflows/pages.yml`: desplegament automàtic a GitHub Pages
 
 ## Publicació
 
@@ -17,6 +23,8 @@ El lloc està preparat per publicar-se com a projecte de GitHub Pages a:
 `https://biocomputing-teaching.github.io/church-abuse-europe/`
 
 Si canvia el nom del repositori, cal actualitzar `baseurl` a [_config.yml](/home/jordivilla/GitHub/TEACHING/law/_config.yml).
+
+El desplegament queda resolt amb GitHub Actions via Jekyll. Quan facis `push` a `main`, GitHub Pages hauria de reconstruir i publicar el lloc.
 
 ## Criteri editorial
 
@@ -31,11 +39,19 @@ Si canvia el nom del repositori, cal actualitzar `baseurl` a [_config.yml](/home
 Si l'entorn ja disposa de Jekyll:
 
 ```bash
-jekyll serve
+cd /home/jordivilla/GitHub/TEACHING/law
+bundle exec jekyll serve
 ```
 
-o bé:
+Després obre:
 
 ```bash
-bundle exec jekyll serve
+http://127.0.0.1:4000/church-abuse-europe/
+```
+
+Si només vols comprovar el build:
+
+```bash
+cd /home/jordivilla/GitHub/TEACHING/law
+bundle exec jekyll build
 ```
