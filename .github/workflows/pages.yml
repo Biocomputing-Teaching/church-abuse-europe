@@ -28,7 +28,13 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3"
-          bundler-cache: true
+          bundler-cache: false
+
+      - name: Install dependencies
+        run: |
+          bundle config set path vendor/bundle
+          bundle config set frozen false
+          bundle install
 
       - name: Build with Jekyll
         run: bundle exec jekyll build
